@@ -1,6 +1,6 @@
 {
   "name": "portfolio-app",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "type": "module",
   "homepage": "https://detkovvv.github.io/portfolio-app",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
