@@ -7,8 +7,8 @@ import project05Big from './../assets/img/projects/05-big.jpg';
 import project04 from './../assets/img/projects/04.jpg';
 import project04Big from './../assets/img/projects/04-big.jpg';
 
-import project03 from './../assets/img/projects/03.jpg';
-import project03Big from './../assets/img/projects/03-big.jpg';
+import project03 from './../assets/img/projects/chat-app.png.jpg';
+import project03Big from './../assets/img/projects/chat-app_big.png';
 
 import project02 from './../assets/img/projects/todo-app.png';
 import project02Big from './../assets/img/projects/todo-app_big.png';
