@@ -7,7 +7,7 @@ import project05Big from './../assets/img/projects/05-big.jpg';
 import project04 from './../assets/img/projects/04.jpg';
 import project04Big from './../assets/img/projects/04-big.jpg';
 
-import project03 from './../assets/img/projects/chat-app.png.jpg';
+import project03 from './../assets/img/projects/chat-app.png';
 import project03Big from './../assets/img/projects/chat-app_big.png';
 
 import project02 from './../assets/img/projects/todo-app.png';
@@ -33,30 +33,30 @@ const projects = [
         gitHubLink: 'https://github.com/detkovvv/to_do_list',
     },
     {
-        title: 'Video portal',
+        title: 'Chat App',
         img: project03,
         imgBig: project03Big,
-        skills: 'Vue JS, Node.js, MongoDB',
-        gitHubLink: 'https://github.com',
+        skills: 'React, React Router, ESLint, Prettier, Vite, Yarn',
+        gitHubLink: 'https://github.com/detkovvv/chat-app',
     },
-    {
-        title: 'Dating app',
-        img: project04,
-        imgBig: project04Big,
-        skills: 'React Native',
-    },
-    {
-        title: 'Landing',
-        img: project05,
-        imgBig: project05Big,
-        skills: 'HTML, SCSS, JS',
-    },
-    {
-        title: 'Gaming community',
-        img: project06,
-        imgBig: project06Big,
-        skills: 'React, PHP, MySql',
-    },
+    // {
+    //     title: 'Dating app',
+    //     img: project04,
+    //     imgBig: project04Big,
+    //     skills: 'React Native',
+    // },
+    // {
+    //     title: 'Landing',
+    //     img: project05,
+    //     imgBig: project05Big,
+    //     skills: 'HTML, SCSS, JS',
+    // },
+    // {
+    //     title: 'Gaming community',
+    //     img: project06,
+    //     imgBig: project06Big,
+    //     skills: 'React, PHP, MySql',
+    // },
 ];
 
 export {projects}
