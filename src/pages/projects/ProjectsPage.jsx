@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/main.css';
-import {projects} from "../../helpers/projectList.js";
-import Project from "../../components/project/Project.jsx";
+import {projects} from '../../helpers/projectList.js';
+import Project from '../../components/project/Project.jsx';
 
 
 const ProjectsPage = () => {

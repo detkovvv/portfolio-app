@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import {useLocalStorage} from "../../utils/useLocalStorage.js";
-import detectDarkMode from "../../utils/detectDarkMode.js";
-import sun from "./sun.svg";
-import moon from "./moon.svg";
+import {useLocalStorage} from '../../utils/useLocalStorage.js';
+import detectDarkMode from '../../utils/detectDarkMode.js';
+import sun from './sun.svg';
+import moon from './moon.svg';
 import './style.css';
 
 

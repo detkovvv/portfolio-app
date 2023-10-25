@@ -1,7 +1,7 @@
 import React from 'react';
-import {useParams} from "react-router-dom";
-import BtnGitHub from "../../components/btnGitHub/BtnGitHub.jsx";
-import {projects} from "../../helpers/projectList.js";
+import {useParams} from 'react-router-dom';
+import BtnGitHub from '../../components/btnGitHub/BtnGitHub.jsx';
+import {projects} from '../../helpers/projectList.js';
 
 
 const ProjectPage = () => {
