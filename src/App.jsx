@@ -13,7 +13,7 @@ import ScrollToTop from "./utils/scrollToTop.js";
 function App() {
     return (
         <div className="App">
-            <Router basename='/portfolio-app'>
+            <Router basename={import.meta.env.PROD ? '/portfolio-app' : undefined}>
                 <ScrollToTop />
                 <Navbar/>
                 <Routes>
