@@ -1,5 +1,5 @@
 import './styles/main.css';
-import { Routes, Route, HashRouter} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar.jsx";
 import Footer from "./components/footer/Footer.jsx";
@@ -13,7 +13,7 @@ import ScrollToTop from "./utils/scrollToTop.js";
 function App() {
     return (
         <div className="App">
-            <HashRouter>
+            <Router basename='/portfolio-app'>
                 <ScrollToTop />
                 <Navbar/>
                 <Routes>
@@ -23,7 +23,7 @@ function App() {
                     <Route path="/project/:id" element={<ProjectPage />}/>
                 </Routes>
                 <Footer/>
-            </HashRouter>
+            </Router>
         </div>
     )
 }
