@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import Header from '../../components/header/Header.tsx'
-import './../../styles/main.css'
+import Header from '../../components/header/Header'
+import './../../styles/main'
 
 const HomePage: FC = () => {
   return (

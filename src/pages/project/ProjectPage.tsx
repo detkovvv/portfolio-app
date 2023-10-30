@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useParams } from 'react-router-dom'
-import BtnGitHub from '../../components/btnGitHub/BtnGitHub.tsx'
-import { projects } from '../../helpers/projectList.ts'
+import BtnGitHub from '../../components/btnGitHub/BtnGitHub'
+import { projects } from '../../helpers/projectList'
 
 const ProjectPage: FC = () => {
   const { id } = useParams()

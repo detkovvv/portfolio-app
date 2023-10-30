@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import './../../styles/main.css'
+import './../../styles/main'
 
 const ContactsPage: FC = () => {
   return (

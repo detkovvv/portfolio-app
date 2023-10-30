@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import instagram from './../../assets/img/icons/instagram.svg'
 import gitHub from './../../assets/img/icons/gitHub.svg'
 import linkedin from './../../assets/img/icons/linkedIn.svg'
-import './style.css'
+import './style'
 
 const Footer: FC = () => {
   return (

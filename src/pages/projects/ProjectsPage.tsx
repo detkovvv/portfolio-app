@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
-import { projects } from '../../helpers/projectList.ts'
+import { projects } from '../../helpers/projectList'
 import Project from '../../components/project/Project'
-import '../../styles/main.css'
+import '../../styles/main'
 
 const ProjectsPage: FC = () => {
   return (

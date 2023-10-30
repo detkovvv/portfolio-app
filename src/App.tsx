@@ -2,13 +2,13 @@ import './styles/main.css'
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Navbar from './components/navbar/Navbar.tsx'
-import Footer from './components/footer/Footer.tsx'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
 import HomePage from './pages/home/HomePage.tsx'
-import ProjectsPage from './pages/projects/ProjectsPage.tsx'
-import ContactsPage from './pages/contacts/ContactsPage.tsx'
-import ProjectPage from './pages/project/ProjectPage.tsx'
-import ScrollToTop from './utils/scrollToTop.ts'
+import ProjectsPage from './pages/projects/ProjectsPage'
+import ContactsPage from './pages/contacts/ContactsPage'
+import ProjectPage from './pages/project/ProjectPage'
+import ScrollToTop from './utils/scrollToTop'
 
 function App(): React.JSX.Element {
   return (
