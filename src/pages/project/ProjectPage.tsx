@@ -5,7 +5,7 @@ import { projects } from '../../helpers/projectList'
 
 const ProjectPage: FC = () => {
   const { id } = useParams() as { id: string }
-  const project = projects[Number(id)]
+  const project = projects[Number(id) || 0]
 
   return (
     <main className='section'>
