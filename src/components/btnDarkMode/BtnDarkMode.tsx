@@ -8,7 +8,7 @@ import './style.css'
 const BtnDarkMode: FC = () => {
   const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode())
 
-  useEffect(() => {
+  useEffect((): void => {
     if (darkMode === 'dark') {
       document.body.classList.add('dark')
     } else {
@@ -16,7 +16,7 @@ const BtnDarkMode: FC = () => {
     }
   }, [darkMode])
 
-  useEffect(() => {
+  useEffect((): void => {
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
       const newColorScheme = event.matches ? 'dark' : 'light'
       setDarkMode(newColorScheme)
@@ -24,13 +24,13 @@ const BtnDarkMode: FC = () => {
   }, [setDarkMode])
 
   const toggleDarkMode = () => {
-    setDarkMode((currentValue) => {
+    setDarkMode((currentValue: string) => {
       return currentValue === 'light' ? 'dark' : 'light'
     })
   }
 
-  const btnNormal = 'dark-mode-btn'
-  const btnActive = 'dark-mode-btn dark-mode-btn--active'
+  const btnNormal: string = 'dark-mode-btn'
+  const btnActive: string = 'dark-mode-btn dark-mode-btn--active'
 
   return (
     <button className={darkMode === 'dark' ? btnActive : btnNormal} onClick={toggleDarkMode}>

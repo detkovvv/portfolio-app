@@ -4,9 +4,9 @@ import BtnDarkMode from '../btnDarkMode/BtnDarkMode'
 import './style.css'
 
 const Navbar: FC = () => {
-  const activeLink = 'nav-list__link nav-list__link--active'
-  const normalLink = 'nav-list__link'
-  const classDefinition = ({ isActive }) => {
+  const activeLink: string = 'nav-list__link nav-list__link--active'
+  const normalLink: string = 'nav-list__link'
+  const classDefinition: any = ({ isActive }: any) => {
     return isActive ? activeLink : normalLink
   }
 
