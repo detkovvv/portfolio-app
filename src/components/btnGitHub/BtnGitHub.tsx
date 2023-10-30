@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import gitHubIcon from './gitHub-black.svg'
-import './style'
+import './style.css'
 
 const BtnGitHub: FC<{ link: string }> = ({ link }) => {
   return (

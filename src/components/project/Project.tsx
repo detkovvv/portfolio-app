@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { NavLink } from 'react-router-dom'
-import './style'
+import './style.css'
 
 const Project: FC<{ title: string; img: string; index: number }> = ({ title, img, index }) => {
   return (
