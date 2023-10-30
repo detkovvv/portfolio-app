@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import instagram from './../../assets/img/icons/instagram.svg'
 import gitHub from './../../assets/img/icons/gitHub.svg'
 import linkedin from './../../assets/img/icons/linkedIn.svg'

@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { projects } from '../../helpers/projectList'
 import Project from '../../components/project/Project'
 import '../../styles/main.css'

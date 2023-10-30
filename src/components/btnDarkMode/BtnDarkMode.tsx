@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react'
+import { FC, useEffect } from 'react'
 import { useLocalStorage } from '../../utils/useLocalStorage'
 import detectDarkMode from '../../utils/detectDarkMode'
 import sun from './sun.svg'
