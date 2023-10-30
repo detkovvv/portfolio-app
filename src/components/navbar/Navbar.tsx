@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { NavLink } from 'react-router-dom'
 import BtnDarkMode from '../btnDarkMode/BtnDarkMode'
-import './style'
+import './style.css'
 
 const Navbar: FC = () => {
   const activeLink = 'nav-list__link nav-list__link--active'
