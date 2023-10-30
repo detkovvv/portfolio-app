@@ -10,7 +10,7 @@ import ContactsPage from './pages/contacts/ContactsPage.tsx'
 import ProjectPage from './pages/project/ProjectPage.tsx'
 import ScrollToTop from './utils/scrollToTop.ts'
 
-function App(): JSX.Element {
+function App(): React.JSX.Element {
   return (
     <div className='App'>
       <Router basename={import.meta.env.PROD ? '/portfolio-app' : undefined}>
