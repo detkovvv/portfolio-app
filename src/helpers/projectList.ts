@@ -16,7 +16,15 @@ import project02Big from './../assets/img/projects/todo-app_big.png'
 import project01 from './../assets/img/projects/top-app.jpg'
 import project01Big from './../assets/img/projects/top-app _big.jpg'
 
-const projects = [
+interface Projects {
+  title: string
+  skills: string
+  img: string
+  imgBig: string
+  gitHubLink: string
+}
+
+const projects: Projects[] = [
   {
     title: 'Top courses app',
     skills: 'React, Next.js, Typescript, Yarn, Docker, Accessibility, CSS Grid Layout',

@@ -1,16 +1,16 @@
 import './styles/main.css'
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Navbar from './components/navbar/Navbar.jsx'
-import Footer from './components/footer/Footer.jsx'
-import HomePage from './pages/home/HomePage.jsx'
+import Navbar from './components/navbar/Navbar.tsx'
+import Footer from './components/footer/Footer.tsx'
+import HomePage from './pages/home/HomePage.tsx'
 import ProjectsPage from './pages/projects/ProjectsPage.tsx'
-import ContactsPage from './pages/contacts/ContactsPage.jsx'
-import ProjectPage from './pages/project/ProjectPage.jsx'
+import ContactsPage from './pages/contacts/ContactsPage.tsx'
+import ProjectPage from './pages/project/ProjectPage.tsx'
+import ScrollToTop from './utils/scrollToTop.ts'
 
-import ScrollToTop from './utils/scrollToTop.js'
-
-function App() {
+function App(): JSX.Element {
   return (
     <div className='App'>
       <Router basename={import.meta.env.PROD ? '/portfolio-app' : undefined}>
