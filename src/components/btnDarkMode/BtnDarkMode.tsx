@@ -29,8 +29,8 @@ const BtnDarkMode: FC = () => {
     })
   }
 
-  const btnNormal: string = 'dark-mode-btn'
-  const btnActive: string = 'dark-mode-btn dark-mode-btn--active'
+  const btnNormal = 'dark-mode-btn'
+  const btnActive = 'dark-mode-btn dark-mode-btn--active'
 
   return (
     <button className={darkMode === 'dark' ? btnActive : btnNormal} onClick={toggleDarkMode}>

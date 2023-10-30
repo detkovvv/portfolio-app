@@ -6,7 +6,7 @@ import './style.css'
 const Navbar: FC = () => {
   const activeLink: string = 'nav-list__link nav-list__link--active'
   const normalLink: string = 'nav-list__link'
-  const classDefinition: any = ({ isActive }: any) => {
+  const classDefinition = ({ isActive }: any) => {
     return isActive ? activeLink : normalLink
   }
 
