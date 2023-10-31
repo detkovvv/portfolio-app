@@ -1,9 +1,9 @@
-import { FC } from 'react'
+import { type FC } from 'react'
 import { useParams } from 'react-router-dom'
 import BtnGitHub from '../../components/btnGitHub/BtnGitHub'
 import { projects } from '../../helpers/projectList'
 
-const ProjectPage: FC = () => {
+export const ProjectPage: FC = () => {
   const { id } = useParams() as { id: string }
   const project = projects[Number(id) || 0]
 
@@ -22,5 +22,3 @@ const ProjectPage: FC = () => {
     </main>
   )
 }
-
-export default ProjectPage

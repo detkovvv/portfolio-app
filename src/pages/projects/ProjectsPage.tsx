@@ -1,9 +1,9 @@
-import { FC } from 'react'
+import { type FC } from 'react'
 import { projects } from '../../helpers/projectList'
-import Project from '../../components/project/Project'
+import { Project } from '../../components/project/Project'
 import '../../styles/main.css'
 
-const ProjectsPage: FC = () => {
+export const ProjectsPage: FC = () => {
   return (
     <div>
       <main className='section'>
@@ -19,5 +19,3 @@ const ProjectsPage: FC = () => {
     </div>
   )
 }
-
-export default ProjectsPage

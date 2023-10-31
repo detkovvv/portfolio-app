@@ -1,10 +1,10 @@
-import { FC } from 'react'
+import { type FC } from 'react'
 import instagram from './../../assets/img/icons/instagram.svg'
 import gitHub from './../../assets/img/icons/gitHub.svg'
 import linkedin from './../../assets/img/icons/linkedIn.svg'
 import './style.css'
 
-const Footer: FC = () => {
+export const Footer: FC = () => {
   return (
     <div>
       <footer className='footer'>
@@ -36,5 +36,3 @@ const Footer: FC = () => {
     </div>
   )
 }
-
-export default Footer

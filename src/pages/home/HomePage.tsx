@@ -1,8 +1,8 @@
-import { FC } from 'react'
-import Header from '../../components/header/Header'
+import { type FC } from 'react'
+import { Header } from '../../components/header/Header'
 import './../../styles/main.css'
 
-const HomePage: FC = () => {
+export const HomePage: FC = () => {
   return (
     <div>
       <Header />
@@ -28,5 +28,3 @@ const HomePage: FC = () => {
     </div>
   )
 }
-
-export default HomePage

@@ -1,9 +1,9 @@
-import { FC } from 'react'
+import { type FC } from 'react'
 import { NavLink } from 'react-router-dom'
-import BtnDarkMode from '../btnDarkMode/BtnDarkMode'
+import { BtnDarkMode } from '../btnDarkMode/BtnDarkMode'
 import './style.css'
 
-const Navbar: FC = () => {
+export const Navbar: FC = () => {
   const activeLink: string = 'nav-list__link nav-list__link--active'
   const normalLink: string = 'nav-list__link'
   const classDefinition = ({ isActive }: { isActive: boolean }) => {
@@ -42,5 +42,3 @@ const Navbar: FC = () => {
     </div>
   )
 }
-
-export default Navbar

@@ -1,7 +1,7 @@
-import { FC } from 'react'
+import { type FC } from 'react'
 import './../../styles/main.css'
 
-const ContactsPage: FC = () => {
+export const ContactsPage: FC = () => {
   return (
     <main className='section'>
       <div className='container'>
@@ -28,5 +28,3 @@ const ContactsPage: FC = () => {
     </main>
   )
 }
-
-export default ContactsPage

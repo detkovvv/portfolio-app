@@ -1,7 +1,7 @@
-import { FC } from 'react'
+import { type FC } from 'react'
 import './style.css'
 
-const Header: FC = () => {
+export const Header: FC = () => {
   return (
     <div>
       <header className='header'>
@@ -23,5 +23,3 @@ const Header: FC = () => {
     </div>
   )
 }
-
-export default Header

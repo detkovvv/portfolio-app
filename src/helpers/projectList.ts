@@ -1,12 +1,3 @@
-// import project06 from './../assets/img/projects/06.jpg';
-// import project06Big from './../assets/img/projects/06-big.jpg';
-//
-// import project05 from './../assets/img/projects/05.jpg';
-// import project05Big from './../assets/img/projects/05-big.jpg';
-//
-// import project04 from './../assets/img/projects/04.jpg';
-// import project04Big from './../assets/img/projects/04-big.jpg';
-
 import project03 from './../assets/img/projects/chat-app.png'
 import project03Big from './../assets/img/projects/chat-app_big.png'
 
@@ -24,7 +15,7 @@ interface Projects {
   gitHubLink: string
 }
 
-const projects: Projects[] = [
+export const projects: Projects[] = [
   {
     title: 'Top courses app',
     skills: 'React, Next.js, Typescript, Yarn, Docker, Accessibility, CSS Grid Layout',
@@ -46,24 +37,4 @@ const projects: Projects[] = [
     skills: 'React, React Router, ESLint, Prettier, Vite, Yarn',
     gitHubLink: 'https://github.com/detkovvv/chat-app',
   },
-  // {
-  //     title: 'Dating app',
-  //     img: project04,
-  //     imgBig: project04Big,
-  //     skills: 'React Native',
-  // },
-  // {
-  //     title: 'Landing',
-  //     img: project05,
-  //     imgBig: project05Big,
-  //     skills: 'HTML, SCSS, JS',
-  // },
-  // {
-  //     title: 'Gaming community',
-  //     img: project06,
-  //     imgBig: project06Big,
-  //     skills: 'React, PHP, MySql',
-  // },
 ]
-
-export { projects }
