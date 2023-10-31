@@ -1,4 +1,4 @@
-import './styles/main.css'
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Navbar } from './components/navbar/Navbar'
 import { Footer } from './components/footer/Footer'
@@ -7,6 +7,7 @@ import { ProjectsPage } from './pages/projects/ProjectsPage'
 import { ContactsPage } from './pages/contacts/ContactsPage'
 import { ProjectPage } from './pages/project/ProjectPage'
 import { ScrollToTop } from './utils/scrollToTop'
+import './styles/main.css'
 
 export function App(): React.JSX.Element {
   return (
