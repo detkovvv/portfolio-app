@@ -1,14 +1,12 @@
-import { FC } from 'react'
+import { type FC } from 'react'
 import gitHubIcon from './gitHub-black.svg'
 import './style.css'
 
-const BtnGitHub: FC<{ link: string }> = ({ link }) => {
+export const BtnGitHub: FC<{ link: string }> = ({ link }) => {
   return (
-    <a href={link} target='_blank' rel='noreferrer' className='btn-outline'>
-      <img src={gitHubIcon} alt='' />
+    <a href={link} target='_blank' rel='noopener noreferrer' className='btn-outline'>
+      <img src={gitHubIcon} alt='githubIcon' />
       GitHub repo
     </a>
   )
 }
-
-export default BtnGitHub

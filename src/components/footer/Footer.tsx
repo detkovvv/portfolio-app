@@ -12,18 +12,26 @@ export const Footer: FC = () => {
           <div className='footer__wrapper'>
             <ul className='social'>
               <li className='social__item'>
-                <a href='https://instagram.com/vasvasilievich?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'>
-                  <img src={instagram} alt='link' />
+                <a
+                  href='https://instagram.com/vasvasilievich?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <img src={instagram} alt='instagram' />
                 </a>
               </li>
               <li className='social__item'>
-                <a href='https://github.com/detkovvv'>
-                  <img src={gitHub} alt='link' />
+                <a href='https://github.com/detkovvv' rel='noopener noreferrer' target='_blank'>
+                  <img src={gitHub} alt='github' />
                 </a>
               </li>
               <li className='social__item'>
-                <a href='https://www.linkedin.com/in/vasily-detkov-256847293/'>
-                  <img src={linkedin} alt='link' />
+                <a
+                  href='https://www.linkedin.com/in/vasily-detkov-256847293/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <img src={linkedin} alt='linkedin' />
                 </a>
               </li>
             </ul>

@@ -21,7 +21,7 @@ export const BtnDarkMode: FC = () => {
       const newColorScheme = event.matches ? 'dark' : 'light'
       setDarkMode(newColorScheme)
     })
-  }, [setDarkMode])
+  }, [])
 
   const toggleDarkMode = () => {
     setDarkMode((currentValue: string) => {
