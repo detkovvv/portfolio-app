@@ -15,7 +15,12 @@ export const Header: FC = () => {
           <div className='header__text'>
             <p>with passion for learning and creating.</p>
           </div>
-          <a href='#!' className='btn'>
+          <a
+            href='https://drive.google.com/file/d/1PQcDNVqUsbM4HXySvZvvZrDNHtyqPVB5/view?usp=drive_link'
+            target='_blank'
+            className='btn'
+            rel='noreferrer'
+          >
             Download CV
           </a>
         </div>
