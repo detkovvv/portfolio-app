@@ -1,5 +1,5 @@
-import project03 from './../assets/img/projects/chat-app.png'
-import project03Big from './../assets/img/projects/chat-app_big.png'
+import project03 from '../assets/img/projects/chat-app.jpg'
+import project03Big from '../assets/img/projects/chat-app_big.jpg'
 
 import project02 from './../assets/img/projects/todo-app.png'
 import project02Big from './../assets/img/projects/todo-app_big.png'
