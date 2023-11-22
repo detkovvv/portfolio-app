@@ -17,8 +17,15 @@ interface Projects {
 
 export const projects: Projects[] = [
   {
+    title: 'Chat App',
+    img: project03,
+    imgBig: project03Big,
+    skills: 'Typescript, React, React Router, Redux, Redux-Thunk, REST API, ESLint, Prettier, Vite',
+    gitHubLink: 'https://github.com/detkovvv/chat-app',
+  },
+  {
     title: 'Top courses app',
-    skills: 'React, Next.js, Typescript, Yarn, Docker, Accessibility, CSS Grid Layout',
+    skills: 'Typescript, React, Next.js, Docker, Accessibility, CSS Grid Layout,',
     img: project01,
     imgBig: project01Big,
     gitHubLink: 'https://github.com/detkovvv/top-app',
@@ -27,14 +34,7 @@ export const projects: Projects[] = [
     title: 'ToDo App',
     img: project02,
     imgBig: project02Big,
-    skills: 'React, Vite, Yarn ',
+    skills: 'Javascript, React, Vite',
     gitHubLink: 'https://github.com/detkovvv/to_do_list',
-  },
-  {
-    title: 'Chat App',
-    img: project03,
-    imgBig: project03Big,
-    skills: 'React, React Router, ESLint, Prettier, Vite, Yarn',
-    gitHubLink: 'https://github.com/detkovvv/chat-app',
   },
 ]
