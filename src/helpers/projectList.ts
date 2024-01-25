@@ -7,6 +7,9 @@ import project02Big from './../assets/img/projects/todo-app_big.png'
 import project01 from './../assets/img/projects/top-app.jpg'
 import project01Big from './../assets/img/projects/top-app _big.jpg'
 
+import project04 from './../assets/img/projects/company_table.jpg'
+import project04Big from './../assets/img/projects/company_table_full.jpg'
+
 interface Projects {
   title: string
   skills: string
@@ -29,6 +32,13 @@ export const projects: Projects[] = [
     img: project01,
     imgBig: project01Big,
     gitHubLink: 'https://github.com/detkovvv/top-app',
+  },
+  {
+    title: 'Company table',
+    img: project04,
+    imgBig: project04Big,
+    skills: 'Typescript, React, Redux Toolkit, CSS Modules, Vitest, Faker-js, Vite',
+    gitHubLink: 'https://github.com/detkovvv/companies_table',
   },
   {
     title: 'ToDo App',

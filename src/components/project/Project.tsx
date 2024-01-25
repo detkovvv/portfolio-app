@@ -8,7 +8,7 @@ export const Project: FC<{ title: string; img: string; index: number }> = ({
   index,
 }) => {
   return (
-    <div>
+    <div className='project_container'>
       <NavLink to={`/project/${index}`}>
         <li className='project'>
           <img src={img} alt={title} className='project__img' />

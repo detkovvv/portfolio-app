@@ -18,7 +18,13 @@ export const HomePage: FC = () => {
               <h2 className='title-2'>Frameworks, Libraries, Tools and Platforms</h2>
               <p>
                 {' '}
-                React, React Router, Redux, Sass, Webpack/Vite, NPM/Yarn, TailwindCSS, Git, Next.JS{' '}
+                React, React Router, Redux, Redux Thunk, Redux Toolkit, RTK Query, Next.JS
+                <br />
+                Sass, CSS Modules, Material UI, TailwindCSS,
+                <br />
+                Webpack/Vite, NPM/Yarn, Git,
+                <br />
+                Vitest, Jest{' '}
               </p>
             </li>
           </ul>
