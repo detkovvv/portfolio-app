@@ -13,7 +13,12 @@ export const Header: FC = () => {
             <br />a frontend developer
           </h1>
           <div className='header__text'>
-            <p>with passion for learning and creating.</p>
+            <p>
+              I do layout and create websites to make life easier for my client, as well as his
+              clients.
+              <br />
+              On this website you will find a collection of my pet-projects and commissioned works.
+            </p>
           </div>
           <a
             href='https://drive.google.com/file/d/1NwfuwGIMwYwclaapaPlGG6iSbhdQyn6K/view?usp=sharing'

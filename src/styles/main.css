@@ -81,6 +81,7 @@ body {
 
 .section {
   padding: 70px 0;
+  flex-grow: 1;
 }
 
 .title-1 {

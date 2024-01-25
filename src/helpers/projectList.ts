@@ -10,6 +10,9 @@ import project01Big from './../assets/img/projects/top-app _big.jpg'
 import project04 from './../assets/img/projects/company_table.jpg'
 import project04Big from './../assets/img/projects/company_table_full.jpg'
 
+import project05 from './../assets/img/projects/ekaterininskaya.jpg'
+import project05Big from './../assets/img/projects/ekaterininskaya_big.jpg'
+
 interface Projects {
   title: string
   skills: string
@@ -39,6 +42,13 @@ export const projects: Projects[] = [
     imgBig: project04Big,
     skills: 'Typescript, React, Redux Toolkit, CSS Modules, Vitest, Faker-js, Vite',
     gitHubLink: 'https://github.com/detkovvv/companies_table',
+  },
+  {
+    title: 'Ekaterininskaya clinic',
+    img: project05,
+    imgBig: project05Big,
+    skills: 'HTML, CSS, Adaptive Layout, Javascript, Swiper',
+    gitHubLink: 'https://github.com/detkovvv/eco-page',
   },
   {
     title: 'ToDo App',
