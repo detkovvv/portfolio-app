@@ -1,9 +1,10 @@
 {
   "name": "portfolio-app",
+  "author": "Vasiliy Detkov",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "/portfolio-app/",
+  "homepage": "https://detkovvv.github.io/SpaceX-page/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
