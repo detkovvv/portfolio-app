@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://detkovvv.github.io/SpaceX-page/",
+  "homepage":"/portfolio-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
