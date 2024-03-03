@@ -20,7 +20,7 @@ export const HomePage: FC = () => {
                 {' '}
                 React, React Router, Redux, Redux Thunk, Redux Toolkit, RTK Query, Next.JS
                 <br />
-                Sass, CSS Modules, Material UI, TailwindCSS,
+                Sass, CSS Modules, Material UI
                 <br />
                 Webpack/Vite, NPM/Yarn, Git,
                 <br />
