@@ -21,7 +21,7 @@ export const Header: FC = () => {
             </p>
           </div>
           <a
-            href='https://drive.google.com/file/d/1NwfuwGIMwYwclaapaPlGG6iSbhdQyn6K/view?usp=sharing'
+            href='https://drive.google.com/file/d/1_rt5OfpuJrNppc9RQmA8YowcxQryjemj/view?usp=drive_link'
             target='_blank'
             className='btn'
             rel='noreferrer'
