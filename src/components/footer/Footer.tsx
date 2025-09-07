@@ -1,8 +1,8 @@
 import { type FC } from 'react';
-import instagram from './../../assets/img/icons/instagram.svg';
-import gitHub from './../../assets/img/icons/gitHub.svg';
-import linkedin from './../../assets/img/icons/linkedIn.svg';
-import telegram from './../../assets/img/icons/telegram.svg';
+import instagram from '@/assets/img/icons/instagram.svg';
+import gitHub from '@/assets/img/icons/gitHub.svg';
+// import linkedin from '@/assets/img/icons/linkedIn.svg';
+import telegram from '@/assets/img/icons/telegram.svg';
 import './style.css';
 
 export const Footer: FC = () => {
