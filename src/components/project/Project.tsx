@@ -13,11 +13,13 @@ export const Project: FC<IProjectProp> = ({ title, img, id }) => {
         <div className="project_container">
             <NavLink to={`/project/${id}`}>
                 <li className="project">
-                    <img
-                        src={img}
-                        alt={`${title} screenshot`}
-                        className="project__img"
-                    />
+                    <div className="img_container">
+                        <img
+                            src={img}
+                            alt={`${title} screenshot`}
+                            className="project__img"
+                        />
+                    </div>
                     <h3 className="project__title">{title}</h3>
                 </li>
             </NavLink>

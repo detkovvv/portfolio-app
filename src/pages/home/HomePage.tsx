@@ -8,14 +8,16 @@ export const HomePage: FC = () => {
             <Header />
             <main className="section">
                 <div className="container">
-                    <h1 className="title-1">Skills</h1>
+                    <h1 className="main-title">Skills</h1>
                     <ul className="content-list">
                         <li className="content-list__item">
-                            <h2 className="title-2">Programming Languages</h2>
+                            <h2 className="sub-title">
+                                Programming Languages
+                            </h2>
                             <p>JavaScript, Typescript, HTML5, CSS3 </p>
                         </li>
                         <li className="content-list__item">
-                            <h2 className="title-2">
+                            <h2 className="sub-title">
                                 Frameworks, Libraries, Tools and Platforms
                             </h2>
                             <p>

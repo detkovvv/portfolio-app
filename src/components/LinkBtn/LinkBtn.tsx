@@ -1,5 +1,5 @@
 import { type FC } from 'react';
-import hostedIcon from './hosted-icon.svg';
+import hostedIcon from './hostedLink.svg';
 import gitHubIcon from './gitHub-black.svg';
 
 import './style.css';

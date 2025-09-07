@@ -13,7 +13,7 @@ export const ProjectPage: FC = () => {
         <main className="section">
             <div className="container">
                 <div className="project-details">
-                    <h1 className="title-1">{project.title}</h1>
+                    <h1 className="main-title">{project.title}</h1>
                     <img
                         src={project.imgBig}
                         alt={`${project.title} screenshot`}
