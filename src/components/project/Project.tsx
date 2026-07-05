@@ -1,26 +1,43 @@
 import { type FC } from 'react';
 import { NavLink } from 'react-router-dom';
+
+import { Badge } from '@/components/badge/Badge';
+import { projectLink } from '@/routes/paths';
+import { type ProjectData } from '@/types/project';
 import './style.css';
 
-interface IProjectProp {
-    title: string;
-    img: string;
-    id: string;
+const MAX_VISIBLE_SKILLS = 4;
+
+interface ProjectProps {
+    project: ProjectData;
 }
 
-export const Project: FC<IProjectProp> = ({ title, img, id }) => {
+export const Project: FC<ProjectProps> = ({ project }) => {
+    const { id, title, img, skills, summary } = project;
+    const visibleSkills = skills.slice(0, MAX_VISIBLE_SKILLS);
+
     return (
         <li className="project_container">
-            <NavLink to={`/project/${id}`} className="project">
+            <NavLink className="project" to={projectLink(id)}>
                 <div className="img_container">
                     <img
-                        src={img}
                         alt={`${title} screenshot`}
                         className="project__img"
                         loading="lazy"
+                        src={img}
                     />
                 </div>
-                <h3 className="project__title">{title}</h3>
+                <div className="project__body">
+                    <h3 className="project__title">{title}</h3>
+                    <ul className="project__skills">
+                        {visibleSkills.map((skill) => (
+                            <li key={skill}>
+                                <Badge label={skill} />
+                            </li>
+                        ))}
+                    </ul>
+                    {summary && <p className="project__summary">{summary}</p>}
+                </div>
             </NavLink>
         </li>
     );

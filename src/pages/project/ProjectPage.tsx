@@ -1,7 +1,10 @@
 import { type FC } from 'react';
 import { useParams } from 'react-router-dom';
+
+import { Badge } from '@/components/badge/Badge';
 import { LinkBtn } from '@/components/LinkBtn/LinkBtn';
-import { projects } from '@/helpers/projectList';
+import { Section } from '@/components/section/Section';
+import { projects } from '@/data/projectList';
 
 export const ProjectPage: FC = () => {
     const { id } = useParams() as { id: string };
@@ -9,19 +12,31 @@ export const ProjectPage: FC = () => {
 
     if (!project) return null;
 
+    const meta = [project.role, project.year].filter(Boolean).join(' · ');
+
     return (
-        <main className="section">
-            <div className="container">
-                <div className="project-details">
-                    <h1 className="main-title">{project.title}</h1>
-                    <img
-                        src={project.imgBig}
-                        alt={`${project.title} screenshot`}
-                        className="project-details__cover"
-                    />
-                    <div className="project-details__desc">
-                        <p>Skills: {project.skills}</p>
-                    </div>
+        <Section>
+            <div className="project-details">
+                <h1 className="main-title">{project.title}</h1>
+                <img
+                    alt={`${project.title} screenshot`}
+                    className="project-details__cover"
+                    src={project.imgBig}
+                />
+                {meta && <p className="project-details__meta">{meta}</p>}
+                {project.summary && (
+                    <p className="project-details__summary">
+                        {project.summary}
+                    </p>
+                )}
+                <ul className="project-details__skills">
+                    {project.skills.map((skill) => (
+                        <li key={skill}>
+                            <Badge label={skill} />
+                        </li>
+                    ))}
+                </ul>
+                <div className="project-details__actions">
                     {project.gitHubLink && (
                         <LinkBtn link={project.gitHubLink} type={'github'} />
                     )}
@@ -30,6 +45,6 @@ export const ProjectPage: FC = () => {
                     )}
                 </div>
             </div>
-        </main>
+        </Section>
     );
 };

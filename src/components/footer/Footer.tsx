@@ -1,6 +1,7 @@
 import { type FC } from 'react';
-import instagram from '@/assets/img/icons/instagram.svg';
+
 import gitHub from '@/assets/img/icons/gitHub.svg';
+import instagram from '@/assets/img/icons/instagram.svg';
 // import linkedin from '@/assets/img/icons/linkedIn.svg';
 import telegram from '@/assets/img/icons/telegram.svg';
 import './style.css';
@@ -18,7 +19,7 @@ export const Footer: FC = () => {
                                     rel="noopener noreferrer"
                                     target="_blank"
                                 >
-                                    <img src={gitHub} alt="github" />
+                                    <img alt="github" src={gitHub} />
                                 </a>
                             </li>
                             <li className="social__item">
@@ -27,7 +28,7 @@ export const Footer: FC = () => {
                                     rel="noopener noreferrer"
                                     target="_blank"
                                 >
-                                    <img src={telegram} alt="telegram" />
+                                    <img alt="telegram" src={telegram} />
                                 </a>
                             </li>
                             {/* <li className='social__item'> */}
@@ -45,7 +46,7 @@ export const Footer: FC = () => {
                                     rel="noopener noreferrer"
                                     target="_blank"
                                 >
-                                    <img src={instagram} alt="instagram" />
+                                    <img alt="instagram" src={instagram} />
                                 </a>
                             </li>
                         </ul>

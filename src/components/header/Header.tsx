@@ -21,10 +21,10 @@ export const Header = () => {
                         </p>
                     </div>
                     <a
-                        href="https://drive.google.com/file/d/1_rt5OfpuJrNppc9RQmA8YowcxQryjemj/view?usp=drive_link"
-                        target="_blank"
                         className="btn"
+                        href="https://drive.google.com/file/d/1_rt5OfpuJrNppc9RQmA8YowcxQryjemj/view?usp=drive_link"
                         rel="noreferrer"
+                        target="_blank"
                     >
                         Download CV
                     </a>

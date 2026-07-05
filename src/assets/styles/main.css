@@ -134,6 +134,33 @@ body {
     top: 1px;
 }
 
+.btn-secondary {
+    display: inline-block;
+
+    height: 48px;
+    padding: 12px 28px;
+
+    transition: opacity 0.2s ease-in;
+    letter-spacing: 0.15px;
+
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    background-color: transparent;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-secondary:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary:active {
+    position: relative;
+    top: 1px;
+}
+
 /* Projects  */
 
 .projects {
@@ -165,13 +192,76 @@ body {
     box-shadow: var(--box-shadow);
 }
 
-.project-details__desc {
+.project-details__meta {
+    margin-bottom: 10px;
+
+    color: var(--grey);
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.project-details__summary {
     margin-bottom: 30px;
 
     font-size: 24px;
 
     font-weight: 700;
     line-height: 1.3;
+}
+
+.project-details__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+
+    margin-bottom: 40px;
+}
+
+/* About */
+
+.about {
+    max-width: 700px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Skill groups */
+
+.skill-groups {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.skill-group {
+    text-align: center;
+}
+
+.skill-group__tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* CTA */
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
 }
 
 /* Content list */
@@ -220,7 +310,7 @@ body {
     }
 
     /* Project page */
-    .project-details__desc {
+    .project-details__summary {
         margin-bottom: 20px;
 
         font-size: 22px;

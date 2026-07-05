@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+CLAUDE.md
+.claude
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +24,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.stylelintcache
+
+# Brainstorming visual companion
+.superpowers/
