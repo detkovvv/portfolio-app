@@ -5,7 +5,7 @@ import project02 from '@/assets/img/projects/todo-app.png';
 import project02Big from '@/assets/img/projects/todo-app_big.png';
 
 import project01 from '@/assets/img/projects/top-app.jpg';
-import project01Big from '@/assets/img/projects/top-app _big.jpg';
+import project01Big from '@/assets/img/projects/top-app_big.jpg';
 
 import project04 from '@/assets/img/projects/company_table.jpg';
 import project04Big from '@/assets/img/projects/company_table_full.jpg';

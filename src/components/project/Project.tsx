@@ -10,19 +10,18 @@ interface IProjectProp {
 
 export const Project: FC<IProjectProp> = ({ title, img, id }) => {
     return (
-        <div className="project_container">
-            <NavLink to={`/project/${id}`}>
-                <li className="project">
-                    <div className="img_container">
-                        <img
-                            src={img}
-                            alt={`${title} screenshot`}
-                            className="project__img"
-                        />
-                    </div>
-                    <h3 className="project__title">{title}</h3>
-                </li>
+        <li className="project_container">
+            <NavLink to={`/project/${id}`} className="project">
+                <div className="img_container">
+                    <img
+                        src={img}
+                        alt={`${title} screenshot`}
+                        className="project__img"
+                        loading="lazy"
+                    />
+                </div>
+                <h3 className="project__title">{title}</h3>
             </NavLink>
-        </div>
+        </li>
     );
 };

@@ -22,7 +22,7 @@ export const HomePage: FC = () => {
                             </h2>
                             <p>
                                 {' '}
-                                React, Preact, React Router, Zustand, Redux,
+                                React, Preact, React Router, Zustand,
                                 Redux Toolkit, Next.JS, Express, Emscripten
                                 <br />
                                 Sass, CSS Modules, Material UI,
