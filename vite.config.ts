@@ -19,7 +19,7 @@ export default defineConfig({
             exclude: ['node_modules', 'dist'],
         }),
     ],
-    base: './',
+    base: '/portfolio-app/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),

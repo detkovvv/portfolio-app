@@ -12,8 +12,9 @@
 }
 
 .project_container:hover {
-    transform: scale(1.05);
+    transform: translateY(-4px);
 }
+.project:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
 
 .project {
     display: flex;
@@ -48,6 +49,7 @@
 
     width: 100%;
     padding: 15px 20px 25px;
+    text-align: left;
 }
 
 .project__title {
@@ -77,4 +79,7 @@
     .project__title {
         font-size: 22px;
     }
+}
+@media (prefers-reduced-motion: reduce) {
+    .project_container { transition: none; }
 }

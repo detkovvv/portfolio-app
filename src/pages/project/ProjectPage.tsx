@@ -5,12 +5,13 @@ import { Badge } from '@/components/badge/Badge';
 import { LinkBtn } from '@/components/LinkBtn/LinkBtn';
 import { Section } from '@/components/section/Section';
 import { projects } from '@/data/projectList';
+import { NotFoundPage } from '@/pages/notFound/NotFoundPage';
 
 export const ProjectPage: FC = () => {
     const { id } = useParams() as { id: string };
     const project = projects.find((p) => p.id === id);
 
-    if (!project) return null;
+    if (!project) return <NotFoundPage />;
 
     const meta = [project.role, project.year].filter(Boolean).join(' · ');
 

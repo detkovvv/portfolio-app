@@ -53,8 +53,10 @@ yarn deploy
 
 This runs `predeploy` (`yarn build`) and publishes `dist/` to the `gh-pages` branch. Two config points make this work together and should stay in sync if the repo is ever renamed or moved:
 
-- `vite.config.ts` → `base: './'` (relative asset paths)
+- `vite.config.ts` → `base: '/portfolio-app/'` (asset paths work on direct project links)
 - `package.json` → `"homepage": "/portfolio-app/"` and `src/app/App.tsx` → `basename={import.meta.env.PROD ? '/portfolio-app' : undefined}`
+
+The GitHub Actions workflow also copies `index.html` to `404.html` so a direct project URL renders the app on GitHub Pages.
 
 ## Testing
 

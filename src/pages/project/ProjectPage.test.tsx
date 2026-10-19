@@ -27,9 +27,9 @@ describe('ProjectPage', () => {
         ).toBeInTheDocument();
     });
 
-    it('renders nothing for an unknown project id', () => {
-        const { container } = renderProjectPage('/project/does-not-exist');
+    it('shows a not found page for an unknown project id', () => {
+        renderProjectPage('/project/does-not-exist');
 
-        expect(container).toBeEmptyDOMElement();
+        expect(screen.getByRole('heading', { name: '404' })).toBeInTheDocument();
     });
 });

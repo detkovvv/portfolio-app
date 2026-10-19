@@ -13,8 +13,8 @@ export const Header = () => {
                     </h1>
                     <div className="header__text">
                         <p>
-                            I do web app and create websites to make life
-                            easier for my client, as well as his clients.
+                            I build web apps and websites that help people
+                            get things done.
                             <br />
                             On this website you will find a collection of my
                             pet-projects and commissioned works.
