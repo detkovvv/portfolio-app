@@ -6,8 +6,8 @@ interface SectionProps {
 
 export const Section: FC<SectionProps> = ({ children }) => {
     return (
-        <main className="section">
+        <section className="section">
             <div className="container">{children}</div>
-        </main>
+        </section>
     );
 };

@@ -9,7 +9,10 @@ import { projects } from '@/data/projectList';
 import { CONTACTS, PROJECTS } from '@/routes/paths';
 import '@/assets/styles/main.css';
 
-const featuredProjects = projects.filter((project) => project.featured);
+const featuredOrder = ['globex-trans', 'company-table', 'chat-app'];
+const featuredProjects = projects
+    .filter((project) => project.featured)
+    .sort((a, b) => featuredOrder.indexOf(a.id) - featuredOrder.indexOf(b.id));
 
 const skillGroups = [
     {

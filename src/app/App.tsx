@@ -25,13 +25,15 @@ export function App() {
         >
             <ScrollToTop />
             <Navbar />
-            <Routes>
-                <Route element={<HomePage />} path={ROOT} />
-                <Route element={<ProjectsPage />} path={PROJECTS} />
-                <Route element={<ContactsPage />} path={CONTACTS} />
-                <Route element={<ProjectPage />} path={PROJECT_DETAIL} />
-                <Route element={<NotFoundPage />} path={NOT_FOUND} />
-            </Routes>
+            <main>
+                <Routes>
+                    <Route element={<HomePage />} path={ROOT} />
+                    <Route element={<ProjectsPage />} path={PROJECTS} />
+                    <Route element={<ContactsPage />} path={CONTACTS} />
+                    <Route element={<ProjectPage />} path={PROJECT_DETAIL} />
+                    <Route element={<NotFoundPage />} path={NOT_FOUND} />
+                </Routes>
+            </main>
             <Footer />
         </Router>
     );

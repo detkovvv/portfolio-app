@@ -21,7 +21,9 @@ export const projects: ProjectData[] = [
         imgBig: project06Big,
         skills: ['Javascript', 'HTML', 'CSS', 'Adaptive Layout', 'FB events'],
         link: 'https://globex-trans.com/',
-        featured: false,
+        summary: 'Responsive website for an auto transport service.',
+        role: 'Frontend development',
+        featured: true,
     },
     {
         id: 'top-courses',
@@ -37,7 +39,7 @@ export const projects: ProjectData[] = [
         img: project01,
         imgBig: project01Big,
         gitHubLink: 'https://github.com/detkovvv/top-app',
-        featured: true,
+        featured: false,
     },
     {
         id: 'ekaterininskaya-clinic',
@@ -50,7 +52,7 @@ export const projects: ProjectData[] = [
         summary: 'Responsive page for a 2020 clinic webinar, kept as an archive case study.',
         role: 'Frontend development',
         year: 2020,
-        featured: true,
+        featured: false,
     },
     {
         id: 'chat-app',
@@ -103,6 +105,9 @@ export const projects: ProjectData[] = [
         imgBig: project02Big,
         skills: ['Javascript', 'React', 'Vite'],
         gitHubLink: 'https://github.com/detkovvv/to_do_list',
+        link: 'https://detkovvv.github.io/to_do_list/',
+        summary: 'A simple task planner with editing, filters, and local browser storage.',
+        role: 'Frontend development',
         featured: false,
     },
 ];

@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from '@testing-library/react';
+import { cleanup, render, screen, within } from '@testing-library/react';
 import { afterEach, describe, expect, it } from 'vitest';
 
 import { App } from '@/app/App';
@@ -15,6 +15,14 @@ describe('App routing', () => {
         expect(
             screen.getByRole('heading', { name: /featured projects/i }),
         ).toBeInTheDocument();
+        const featuredSection = screen
+            .getByRole('heading', { name: /featured projects/i })
+            .closest('section');
+        expect(
+            within(featuredSection as HTMLElement)
+                .getAllByRole('heading', { level: 3 })
+                .map((heading) => heading.textContent),
+        ).toEqual(['Globex-trans', 'Company table', 'Chat App']);
     });
 
     it('renders the contacts page at "/contacts"', () => {
