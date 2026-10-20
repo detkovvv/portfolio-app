@@ -11,8 +11,6 @@ Frontend developer portfolio built with React, TypeScript, and Vite. Showcases c
 - ESLint + Prettier + Stylelint
 - Vitest + Testing Library
 
-See [`.claude/rules/PROJECT_STACK.md`](.claude/rules/PROJECT_STACK.md) and [`.claude/rules/PROJECT_ARCHITECTURE.md`](.claude/rules/PROJECT_ARCHITECTURE.md) for the full architecture rationale.
-
 ## Getting started
 
 ```bash
